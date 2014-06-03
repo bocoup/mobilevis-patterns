@@ -1,0 +1,33 @@
+{
+  "name": "mobilevis-patterns",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bocoup/mobilevis-patterns",
+  "authors": [
+    "Irene Ros <imirene@gmail.com>"
+  ],
+  "description": "Mobile Vis Pattern Guide",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "visualization",
+    "mobile"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "almond": "~0.2.9",
+    "requirejs": "~2.1.10"
+  },
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery-cookie": "~1.4.1",
+    "modernizr": "~2.8.2",
+    "lodash": "~2.4.1",
+    "bootstrap": "~3.1.1"
+  }
+}
