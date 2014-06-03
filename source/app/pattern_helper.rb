@@ -39,7 +39,7 @@ class PatternHelper < Middleman::Extension
 
       files.each do |meta|
         pattern = Pattern.new(meta["title"], meta["description"],
-            meta["submitted_by"], meta["path"], meta["timestamp"])
+            meta["submitted_by"], meta["path"] + ".html", meta["timestamp"])
         output << template.result(pattern.getBinding)
       end
 

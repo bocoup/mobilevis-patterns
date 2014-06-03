@@ -41,7 +41,30 @@ When sending in a pull request, don't check in `build/*` files.
 
 ### Adding best practices:
 
-TBD
+When you want to add a new pattern, simply look in the `source/patterns` directory
+for some examples.
+
+The general required template is:
+
+```
+---
+title: Your Pattern Title
+description: Brief description
+submitted_by: "twitter handle (no @ please)"
+timestamp: 2014-06-03 11:28:16 -0400
+---
+
+<div class="col-md-8">
+  Your content here!
+</div>
+```
+
+The file name should start with an `_`, like `_verticalBarChart.erb`.
+It should be an `erb` file.
+It shouldn't use `_` as a separator in the file name.
+
+Any assets/images you're adding should go in the `source/src/assets` folder.
+
 
 
 

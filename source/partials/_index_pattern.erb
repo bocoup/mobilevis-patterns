@@ -1,1 +1,10 @@
-<li class="pattern" data-pattern-url="<%= @path %>"><h3><%= @title %></h3><span class="submitted_by"><%= @submitted_by %></span><p class="description"><%= @description %></p></li>
+<li class="pattern" data-pattern-url="<%= @path %>">
+
+  <h3><a href="<%= @path %>"><%= @title %></a></h3>
+  <span class="submitted_by">
+    Submitted by
+    <a href="http://twitter.com/<%= @submitted_by %>">@<%= @submitted_by %></a>, on <%= @timestamp.strftime("%m-%d-%Y") %>
+  </span>
+  <p class="description"><%= @description %></p>
+
+</li>

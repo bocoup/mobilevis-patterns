@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="216px" height="363px" viewBox="0.5 0.5 216 363"
+	 overflow="visible" enable-background="new 0.5 0.5 216 363" xml:space="preserve">
+<defs>
+</defs>
+<rect x="0.5" y="0.5" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="216" height="363.229"/>
+<rect x="10.112" y="10.031" fill="#FFFFFF" stroke="#9FA1A4" stroke-miterlimit="10" width="196.775" height="327.309"/>
+<rect x="18.856" y="133.125" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="20.179" height="114.351"/>
+<rect x="48.453" y="172.697" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="20.18" height="74.778"/>
+<rect x="77.376" y="65.86" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="20.179" height="181.615"/>
+<rect x="109.844" y="182.228" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="20.18" height="65.248"/>
+<rect x="142.131" y="156.667" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="20.18" height="90.808"/>
+<rect x="171.055" y="133.125" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="20.18" height="114.351"/>
+<rect x="200.833" y="133.125" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="7.037" height="114.351"/>
+<text transform="matrix(1 0 0 1 17.5103 260.9277)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="10.7623">lorem </tspan><tspan x="0" y="12.915" font-family="'MyriadPro-Regular'" font-size="10.7623">ipsum</tspan></text>
+<text transform="matrix(1 0 0 1 48.4517 260.9277)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="10.7623">a longer</tspan><tspan x="0" y="12.915" font-family="'MyriadPro-Regular'" font-size="10.7623">label is </tspan><tspan x="0" y="25.829" font-family="'MyriadPro-Regular'" font-size="10.7623">already a</tspan><tspan x="0" y="38.744" font-family="'MyriadPro-Regular'" font-size="10.7623">problem</tspan></text>
+<text transform="matrix(1 0 0 1 109.8442 260.9277)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="10.7623">forget any </tspan><tspan x="0" y="12.915" font-family="'MyriadPro-Regular'" font-size="10.7623">type of</tspan><tspan x="0" y="25.829" font-family="'MyriadPro-Bold'" font-size="10.7623">styling </tspan><tspan x="34.934" y="25.829" font-family="'MyriadPro-Regular'" font-size="10.7623">here because</tspan><tspan x="0" y="38.744" font-family="'MyriadPro-Regular'" font-size="10.7623">you’re definitely out</tspan><tspan x="0" y="51.659" font-family="'MyriadPro-Regular'" font-size="10.7623">of space</tspan></text>
+</svg>

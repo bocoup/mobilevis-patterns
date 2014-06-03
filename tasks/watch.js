@@ -30,6 +30,11 @@ module.exports = function(grunt) {
     stylus: {
       files: [mobileVisRoot + "src/**/*.styl"],
       tasks : ['stylus']
+    },
+
+    rebuild: {
+      files: ["source/patterns/*.erb", "source/css/patterns.css", "source/layouts/*.erb"],
+      tasks: ["middleman:build"]
     }
   });
 

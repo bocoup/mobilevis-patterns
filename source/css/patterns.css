@@ -1,0 +1,12 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.pattern {
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+}

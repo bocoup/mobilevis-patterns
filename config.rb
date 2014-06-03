@@ -1,6 +1,8 @@
 require 'source/app/pattern_helper'
+require 'source/app/build_helper'
 
 activate :pattern_helper
+activate :build_helper
 ###
 # Compass
 ###
