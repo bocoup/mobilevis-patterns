@@ -1,0 +1,132 @@
+---
+title: Stack Table Cells
+description: When needing to display tables that have more than a couple of columns consider stacking cells vertically within each row.
+submitted_by: "ireneros"
+timestamp: 2014-06-04 15:11:16 -0400
+---
+
+<div class="col-md-8">
+  <h1>Stack Table Cells</h1>
+  <p>
+    When displaying values in a table, it is challenging to see more than
+    a few columns at a time, requiring horizontal scrolling.
+    Instead of displaying table data as a table, stack neighboring cells
+    on top of each other instead.
+  </p>
+  <p>
+    For example: <br>
+  </p><p>
+    <object data="/src/assets/horizontal_table.svg" type="image/svg+xml">
+      <img src="/src/assets/horizontal_table.png" />
+    </object>
+  </p>
+
+  <p>
+    However, this can be pretty easily resolved by stacking information:
+  </p><p>
+    <object data="/src/assets/vertical_table.svg" type="image/svg+xml">
+      <img src="/src/assets/vertical_table.png" />
+    </object>
+  </p>
+
+  <h4>In practice:</h4>
+  You can accomplish this with some css. Given this table:
+  <pre>
+<code class="language-markup">
+&lt;table class=&quot;example&quot;&gt;
+  &lt;tr&gt;
+    &lt;td&gt;1,1&lt;/td&gt;
+    &lt;td&gt;1,2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;2,1&lt;/td&gt;
+    &lt;td&gt;2,2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code>
+</pre>
+
+Which would normally look like this:
+<style type="text/css">
+  table.example {
+    border: 1px solid #222;
+  }
+
+  table.example td {
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+  }
+</style>
+<table class="example">
+  <tr>
+    <td>1,1</td>
+    <td>1,2</td>
+  </tr>
+  <tr>
+    <td>2,1</td>
+    <td>2,2</td>
+  </tr>
+</table>
+
+You can transform it to be stacked, with the following css:
+
+<pre><code>
+table.example-stacked {
+  width: 100%;
+}
+
+table.example-stacked tr {
+  display: inline-block;
+  width: 100%;
+  clear: left;
+
+  /* visual changes only */
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+table.example-stacked tr td {
+  width:100%;
+  float: left;
+
+  /* visual changes only */
+  padding: 10px;
+}
+</code></pre>
+<style type="text/css">
+table.example-stacked {
+  width: 100%;
+}
+
+table.example-stacked tr {
+  display: inline-block;
+  width: 100%;
+  clear: left;
+
+  /* visual changes only */
+  border: 1px solid  #ddd;
+  margin-bottom: 10px;
+}
+
+table.example-stacked tr td {
+  width:100%;
+  float: left;
+
+  /* visual changes only */
+  padding: 10px;
+}
+</style>
+
+Leaving us with this table:
+<table class="example-stacked">
+  <tr>
+    <td>1,1</td>
+    <td>1,2</td>
+  </tr>
+  <tr>
+    <td>2,1</td>
+    <td>2,2</td>
+  </tr>
+</table>
+</div>
+
