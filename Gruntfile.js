@@ -1,4 +1,10 @@
 module.exports = function(grunt) {
+
+  var mobileVisRoot = grunt.option('root');
+  if (typeof mobileVisRoot === "undefined") {
+    throw new Error("Pass --root path to your mobileVis app");
+  }
+
   // Project configuration.
 
   grunt.initConfig({
