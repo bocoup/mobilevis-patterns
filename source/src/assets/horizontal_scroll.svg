@@ -5,39 +5,42 @@
 ]>
 <svg version="1.1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="395px" height="468px" viewBox="0 0 395 468" overflow="visible" enable-background="new 0 0 395 468"
+	 x="0px" y="0px" width="280px" height="331px" viewBox="0 0 280 331" overflow="visible" enable-background="new 0 0 280 331"
 	 xml:space="preserve">
 <defs>
 </defs>
-<rect x="45.531" y="21.748" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="216" height="363.229"/>
-<rect x="55.143" y="31.279" fill="#FFFFFF" stroke="#9FA1A4" stroke-miterlimit="10" width="196.775" height="327.309"/>
-<text transform="matrix(1 0 0 1 55.1431 99.4463)" font-family="'MyriadPro-Regular'" font-size="12">Header</text>
-<rect x="55.143" y="114.78" fill="none" width="112.523" height="86"/>
-<text transform="matrix(1 0 0 1 55.1431 121.1704)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="9">dolor sit amet, consectetuer </tspan><tspan x="0" y="10.8" font-family="'MyriadPro-Regular'" font-size="9">adipiscing elit, sed diam </tspan><tspan x="0" y="21.6" font-family="'MyriadPro-Regular'" font-size="9">nonummy nibh euismod </tspan><tspan x="0" y="32.4" font-family="'MyriadPro-Regular'" font-size="9">tincidunt ut laoreet dolore </tspan><tspan x="0" y="43.2" font-family="'MyriadPro-Regular'" font-size="9">magna aliquam erat volutpat. </tspan><tspan x="0" y="54" font-family="'MyriadPro-Regular'" font-size="9">Ut wisi enim ad minim </tspan><tspan x="0" y="64.8" font-family="'MyriadPro-Regular'" font-size="9">veniam, quis nostrud exerci </tspan><tspan x="0" y="75.6" font-family="'MyriadPro-Regular'" font-size="9">tation ullamcorper suscipit </tspan></text>
-<text transform="matrix(1 0 0 1 175.063 121.4468)" font-family="'MyriadPro-Regular'" font-size="11">Average: 4.5</text>
-<text transform="matrix(1 0 0 1 175.062 147.6978)" font-family="'MyriadPro-Regular'" font-size="11">Median: 3</text>
-<text transform="matrix(1 0 0 1 175.062 172.1133)" font-family="'MyriadPro-Regular'" font-size="11">Category: Financ</text>
-<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="74.729" y1="219.447" x2="241.396" y2="219.447"/>
-<text transform="matrix(1 0 0 1 55.1431 248.8511)" font-family="'MyriadPro-Regular'" font-size="12">Header</text>
-<rect x="55.143" y="264.185" fill="none" width="112.523" height="86.001"/>
-<text transform="matrix(1 0 0 1 55.1431 270.5757)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="9">dolor sit amet, consectetuer </tspan><tspan x="0" y="10.8" font-family="'MyriadPro-Regular'" font-size="9">adipiscing elit, sed diam </tspan><tspan x="0" y="21.6" font-family="'MyriadPro-Regular'" font-size="9">nonummy nibh euismod </tspan><tspan x="0" y="32.4" font-family="'MyriadPro-Regular'" font-size="9">tincidunt ut laoreet dolore </tspan><tspan x="0" y="43.199" font-family="'MyriadPro-Regular'" font-size="9">magna aliquam erat volutpat. </tspan><tspan x="0" y="54" font-family="'MyriadPro-Regular'" font-size="9">Ut wisi enim ad minim </tspan><tspan x="0" y="64.8" font-family="'MyriadPro-Regular'" font-size="9">veniam, quis nostrud exerci </tspan><tspan x="0" y="75.6" font-family="'MyriadPro-Regular'" font-size="9">tation ullamcorper suscipit </tspan></text>
-<text transform="matrix(1 0 0 1 176.063 270.8521)" font-family="'MyriadPro-Regular'" font-size="11">Average: 4.5</text>
-<text transform="matrix(1 0 0 1 176.062 297.103)" font-family="'MyriadPro-Regular'" font-size="11">Median: 3</text>
-<text transform="matrix(1 0 0 1 176.062 321.519)" font-family="'MyriadPro-Regular'" font-size="11">Category: Financ</text>
-<path fill="#939598" d="M240.928,308.447c3.218-5.5,1.134-2.334,2.468-7s1.334-4.666,2-15c0.473-7.338-0.667-2-4-6
-	s-2.531-9.666-2.531-9.666l-13.802-17l2-14.334c0,0,1.001,5-7.333,5.667s-27.251-10.001-31.584-12.667s-35.75-19.666-38.083-30.333
-	s1.667-22.333,1.667-22.333s6-8.667,17-7c11,1.666,39.999,11.333,47.666,12c7.667,0.666,45.135,0.166,45.135,0.166v-32
-	c0,0,41.365,41.167,43.865,40.834c2.5-0.334,32,36.666,34,44.166s25.5,95,20,121.5s0.664,37.5,0.832,41s21.168,59,30.668,63.5
-	s0,3.479,0,3.479l-216.833-0.312l-34.667-82.667h82c0,0,0-48.75,12.667-58.667"/>
-<path fill="#939598" d="M46.896,159.947c0,0-12,9-17.5,10s-33,7.167-29,23.834c4,16.666,24.5,19.832,28,19.999s18.5,0,18.5,0
-	V159.947z"/>
-<path fill="#939598" d="M46.531,234.447c0,0-17.53,7.5-23.083,15s-16.052,32.5-13.552,41.5s12,13.5,20.5,11.5s22-9.5,23-11
-	s6.865-28,0-36.5s-6.865-4.5-6.865-12.5S46.531,234.447,46.531,234.447z"/>
-<path fill="#939598" d="M46.531,299.519c0,0-20.53,11.506-23.083,24.217s-2.052,17.211,2.948,21.711s23,6.5,27-2.5s6-21,2-28
-	s-8.865-9.5-8.865-9.5V299.519z"/>
-<polygon fill="#939598" points="135.646,169.697 135.646,143.031 95.146,156.364 "/>
-<polygon fill="#939598" points="187.148,143.031 187.148,169.697 227.648,156.365 "/>
-<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="56.143" y1="5.113" x2="252.918" y2="5.113"/>
-<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="56.143" y1="0" x2="56.143" y2="8.5"/>
-<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="253.142" y1="0" x2="253.142" y2="8.5"/>
+<rect x="32.246" y="15.402" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="152.974" height="257.242"/>
+<rect x="39.053" y="22.152" fill="#FFFFFF" stroke="#9FA1A4" stroke-miterlimit="10" width="139.359" height="231.804"/>
+<text transform="matrix(1 0 0 1 39.0532 70.4282)" font-family="'MyriadPro-Regular'" font-size="8.4985">Header</text>
+<rect x="39.053" y="81.289" fill="none" width="79.69" height="60.907"/>
+<text transform="matrix(1 0 0 1 39.0532 85.814)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="6.3739">dolor sit amet, consectetuer </tspan><tspan x="0" y="7.649" font-family="'MyriadPro-Regular'" font-size="6.3739">adipiscing elit, sed diam </tspan><tspan x="0" y="15.297" font-family="'MyriadPro-Regular'" font-size="6.3739">nonummy nibh euismod </tspan><tspan x="0" y="22.946" font-family="'MyriadPro-Regular'" font-size="6.3739">tincidunt ut laoreet dolore </tspan><tspan x="0" y="30.595" font-family="'MyriadPro-Regular'" font-size="6.3739">magna aliquam erat volutpat. </tspan><tspan x="0" y="38.244" font-family="'MyriadPro-Regular'" font-size="6.3739">Ut wisi enim ad minim </tspan><tspan x="0" y="45.892" font-family="'MyriadPro-Regular'" font-size="6.3739">veniam, quis nostrud exerci </tspan><tspan x="0" y="53.541" font-family="'MyriadPro-Regular'" font-size="6.3739">tation ullamcorper suscipit </tspan></text>
+<text transform="matrix(1 0 0 1 123.9819 86.0093)" font-family="'MyriadPro-Regular'" font-size="7.7903">Average: 4.5</text>
+<text transform="matrix(1 0 0 1 123.981 104.6011)" font-family="'MyriadPro-Regular'" font-size="7.7903">Median: 3</text>
+<text transform="matrix(1 0 0 1 123.9819 121.8921)" font-family="'MyriadPro-Regular'" font-size="7.7903">Category: Financ</text>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="52.924" y1="155.415" x2="170.959" y2="155.415"/>
+<text transform="matrix(1 0 0 1 39.0532 176.2393)" font-family="'MyriadPro-Regular'" font-size="8.4985">Header</text>
+<rect x="39.053" y="187.099" fill="none" width="79.69" height="60.907"/>
+<text transform="matrix(1 0 0 1 39.0532 191.624)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="6.3739">dolor sit amet, consectetuer </tspan><tspan x="0" y="7.649" font-family="'MyriadPro-Regular'" font-size="6.3739">adipiscing elit, sed diam </tspan><tspan x="0" y="15.297" font-family="'MyriadPro-Regular'" font-size="6.3739">nonummy nibh euismod </tspan><tspan x="0" y="22.946" font-family="'MyriadPro-Regular'" font-size="6.3739">tincidunt ut laoreet dolore </tspan><tspan x="0" y="30.595" font-family="'MyriadPro-Regular'" font-size="6.3739">magna aliquam erat volutpat. </tspan><tspan x="0" y="38.244" font-family="'MyriadPro-Regular'" font-size="6.3739">Ut wisi enim ad minim </tspan><tspan x="0" y="45.892" font-family="'MyriadPro-Regular'" font-size="6.3739">veniam, quis nostrud exerci </tspan><tspan x="0" y="53.541" font-family="'MyriadPro-Regular'" font-size="6.3739">tation ullamcorper suscipit </tspan></text>
+<text transform="matrix(1 0 0 1 124.6899 191.8198)" font-family="'MyriadPro-Regular'" font-size="7.7903">Average: 4.5</text>
+<text transform="matrix(1 0 0 1 124.6895 210.4116)" font-family="'MyriadPro-Regular'" font-size="7.7903">Median: 3</text>
+<text transform="matrix(1 0 0 1 124.6899 227.7026)" font-family="'MyriadPro-Regular'" font-size="7.7903">Category: Financ</text>
+<path fill="#939598" d="M170.628,218.446c2.278-3.896,0.803-1.653,1.747-4.958c0.945-3.305,0.945-3.305,1.417-10.623
+	c0.335-5.197-0.473-1.417-2.833-4.249c-2.36-2.833-1.793-6.846-1.793-6.846l-9.774-12.04l1.416-10.151c0,0,0.709,3.541-5.192,4.013
+	c-5.903,0.473-19.3-7.083-22.369-8.971c-3.069-1.888-25.318-13.928-26.971-21.482c-1.652-7.554,1.181-15.816,1.181-15.816
+	s4.249-6.138,12.04-4.958c7.79,1.18,28.328,8.026,33.757,8.499c5.43,0.472,31.965,0.118,31.965,0.118v-22.663
+	c0,0,29.295,29.155,31.065,28.919c1.771-0.237,22.663,25.967,24.079,31.279c1.417,5.312,18.06,67.28,14.165,86.047
+	c-3.896,18.768,0.47,26.559,0.589,29.037s14.991,41.784,21.72,44.972c6.728,3.187,0,2.463,0,2.463l-153.564-0.221l-24.552-58.546
+	h58.074c0,0,0-34.524,8.971-41.548"/>
+<path fill="#939598" d="M33.212,113.276c0,0-8.499,6.374-12.394,7.083c-3.896,0.708-23.371,5.076-20.539,16.879
+	c2.833,11.803,17.352,14.045,19.83,14.164c2.479,0.118,13.102,0,13.102,0V113.276z"/>
+<path fill="#939598" d="M32.954,166.038c0,0-12.415,5.312-16.347,10.624s-11.369,23.017-9.598,29.391
+	c1.771,6.373,8.499,9.561,14.519,8.144c6.02-1.416,15.581-6.728,16.289-7.79c0.708-1.062,4.862-19.83,0-25.85
+	c-4.862-6.02-4.862-3.187-4.862-8.853C32.954,166.038,32.954,166.038,32.954,166.038z"/>
+<path fill="#939598" d="M32.954,212.123c0,0-14.54,8.148-16.347,17.15s-1.454,12.189,2.087,15.376
+	c3.541,3.188,16.289,4.604,19.122-1.771c2.833-6.374,4.249-14.872,1.416-19.829c-2.833-4.958-6.278-6.729-6.278-6.729V212.123z"/>
+<polygon fill="#939598" points="96.066,120.181 96.066,101.296 67.383,110.739 "/>
+<polygon fill="#939598" points="132.541,101.296 132.541,120.181 161.223,110.739 "/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="39.761" y1="3.621" x2="179.12" y2="3.621"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="39.761" y1="0" x2="39.761" y2="6.02"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="179.278" y1="0" x2="179.278" y2="6.02"/>
 </svg>
