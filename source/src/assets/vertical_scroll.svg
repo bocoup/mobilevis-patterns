@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="395px" height="445px" viewBox="0 0 395 445" overflow="visible" enable-background="new 0 0 395 445"
+	 xml:space="preserve">
+<defs>
+</defs>
+<rect x="46.802" y="0.5" fill="#D1D3D4" stroke="#9FA1A4" stroke-miterlimit="10" width="215.458" height="362.317"/>
+<rect x="56.39" y="18.059" fill="#FFFFFF" stroke="#9FA1A4" stroke-miterlimit="10" width="196.281" height="326.489"/>
+<text transform="matrix(1 0 0 1 68.7295 69.7432)" font-family="'MyriadPro-Regular'" font-size="12">Some Row Header</text>
+<rect x="70.729" y="85.077" fill="none" width="166.667" height="86"/>
+<text transform="matrix(1 0 0 1 70.7295 91.4673)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="9">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="10.8" font-family="'MyriadPro-Regular'" font-size="9">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="21.6" font-family="'MyriadPro-Regular'" font-size="9">euismod tincidunt ut laoreet dolore magna </tspan><tspan x="0" y="32.4" font-family="'MyriadPro-Regular'" font-size="9">aliquam erat volutpat. Ut wisi enim ad </tspan><tspan x="0" y="43.2" font-family="'MyriadPro-Regular'" font-size="9">minim veniam, quis nostrud exerci tation </tspan><tspan x="0" y="54" font-family="'MyriadPro-Regular'" font-size="9">ullamcorper suscipit lobortis nisl ut aliquip </tspan><tspan x="0" y="64.8" font-family="'MyriadPro-Regular'" font-size="9">ex ea commodo consequat. Duis autem vel </tspan><tspan x="0" y="75.6" font-family="'MyriadPro-Regular'" font-size="9">eum iriure dolor in</tspan></text>
+<text transform="matrix(1 0 0 1 70.7295 191.0767)" font-family="'MyriadPro-Regular'" font-size="11">Average: 4.5</text>
+<text transform="matrix(1 0 0 1 70.7295 207.0767)" font-family="'MyriadPro-Regular'" font-size="11">Median: 3</text>
+<text transform="matrix(1 0 0 1 70.7295 222.4106)" font-family="'MyriadPro-Regular'" font-size="11">Category: Finance</text>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="70.729" y1="239.744" x2="237.396" y2="239.744"/>
+<text transform="matrix(1 0 0 1 70.1978 261.4819)" font-family="'MyriadPro-Regular'" font-size="12">Another Row Header</text>
+<rect x="72.198" y="276.816" fill="none" width="166.667" height="67.731"/>
+<text transform="matrix(1 0 0 1 72.1978 283.2065)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="9">Lorem ipsum dolor sit amet, consectetuer </tspan><tspan x="0" y="10.799" font-family="'MyriadPro-Regular'" font-size="9">adipiscing elit, sed diam nonummy nibh </tspan><tspan x="0" y="21.6" font-family="'MyriadPro-Regular'" font-size="9">euismod tincidunt ut laoreet dolore magna </tspan><tspan x="0" y="32.399" font-family="'MyriadPro-Regular'" font-size="9">aliquam erat volutpat. Ut wisi enim ad </tspan><tspan x="0" y="43.199" font-family="'MyriadPro-Regular'" font-size="9">minim veniam, quis nostrud exerci tation </tspan><tspan x="0" y="54" font-family="'MyriadPro-Regular'" font-size="9">ullamcorper suscipit lobortis nisl ut aliquip </tspan></text>
+<path fill="#939598" d="M240.928,285.744c3.218-5.5,1.134-2.334,2.468-7s1.334-4.666,2-15c0.473-7.338-0.667-2-4-6
+	s-2.531-9.666-2.531-9.666l-13.802-17l2-14.334c0,0,1.001,5-7.333,5.667s-27.251-10.001-31.584-12.667s-35.75-19.666-38.083-30.333
+	s1.667-22.333,1.667-22.333s6-8.667,17-7s39.999,11.333,47.666,12s46,0.167,46,0.167v-32c0,0,40.5,41.167,43,40.833
+	s32,36.667,34,44.167s25.5,95,20,121.5s0.664,37.5,0.832,41s21.168,59,30.668,63.5s0,3.479,0,3.479l-216.833-0.312l-34.667-82.667
+	h82c0,0,0-48.75,12.667-58.667"/>
+<path fill="#939598" d="M46.896,137.244c0,0-12,9-17.5,10s-33,7.167-29,23.833s24.5,19.833,28,20s18.5,0,18.5,0V137.244z"/>
+<path fill="#939598" d="M46.531,211.744c0,0-17.53,7.5-23.083,15s-16.052,32.5-13.552,41.5s12,13.5,20.5,11.5s22-9.5,23-11
+	s6.865-28,0-36.5s-6.865-4.5-6.865-12.5S46.531,211.744,46.531,211.744z"/>
+<path fill="#939598" d="M46.531,276.816c0,0-20.53,11.506-23.083,24.217s-2.052,17.211,2.948,21.711s23,6.5,27-2.5s6-21,2-28
+	s-8.865-9.5-8.865-9.5V276.816z"/>
+<polygon fill="#939598" points="148.729,137.244 175.396,137.244 162.063,96.744 "/>
+<polygon fill="#939598" points="175.396,205.744 148.729,205.744 162.062,246.244 "/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="23.448" y1="18.059" x2="23.448" y2="344.547"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="19.896" y1="344.547" x2="28.396" y2="344.547"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="19.896" y1="17.547" x2="28.396" y2="17.547"/>
+</svg>
