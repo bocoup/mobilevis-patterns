@@ -2,3 +2,4 @@ node_modules
 source/bower_components
 build
 .ruby-version
+credentials.json
