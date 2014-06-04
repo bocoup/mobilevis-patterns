@@ -30,8 +30,10 @@ you do, run `bundle install` from the root to get all required gems.
 When you're ready to do development, run:
 
 1. `grunt dev --root="YourMobileVisGalleryPath"` in one terminal. It will watch for changes in various files.
-2. `grunt middleman:server --root="YourMobileVisGalleryPath"` in another terminal.
-This will start the middleman development server.
+2. `cd build && python -m SimpleHTTPServer` in another terminal.
+This will serve the resulting build files. Even though Middleman comes with built in
+dev server, we are using grunt to rebuilt the static files that are generated
+on file changes. It's a bit slower, so it'd be nice to move away from this system in the future.
 
 When you're ready to build your changes, run:
 
