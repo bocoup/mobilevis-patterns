@@ -6979,15 +6979,14 @@ section#welcome {
   margin-right: 13px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #eaceeb;
-  border: 1px solid #cfcfcf;
+  background: #fdeebf;
+  color: #79662b;
 }
 section#welcome .close {
   margin-left: 10px;
 }
 section#welcome .mobilevis {
   font-weight: bold;
-  color: #9654a1;
 }
 
 #image-previews {
@@ -7090,84 +7089,115 @@ ul.submissions li.submission .submission-content .submission-info div.submitted_
   font-size: 0.8em;
 }
 
-.content .submission.row h3.title {
+.submission.row h3.title {
   margin-bottom: 0;
 }
-.content .submission.row div.creator {
+.submission.row div.creator {
   margin-bottom: 1em;
   border-bottom: 1px solid #ccc;
   padding-bottom: 1em;
 }
-.content .submission.row div.submitted_by {
-  font-size: 0.8em;
+.submission.row div.submitted_by {
+  margin-bottom: 0.6em;
 }
-.content .submission.row .col-md-8 {
+.submission.row .col-md-8 {
   padding: 0;
 }
-.content .submission.row .col-md-4 {
+.submission.row .col-md-4 {
   padding: 0 2em 0 2em;
 }
-.content .submission.row div.image-container {
+.submission.row div.image-container {
   position: relative;
   background: #fff;
   margin-top: 1.8em;
 }
-.content .submission.row div.image-container .image-control {
+.submission.row div.image-container .image-control {
   position: absolute;
   width: 35px;
   height: 100%;
   z-index: 900;
   cursor: pointer;
+  background: #e9e9e9;
 }
-.content .submission.row div.image-container .image-control.image-after {
+.submission.row div.image-container .image-control:hover {
+  background: #dadada;
+}
+.submission.row div.image-container .image-control.image-after {
   background-image: url("src/assets/arrow-right.png");
   background-repeat: no-repeat;
-  background-position: right center;
-  right: 10px;
+  background-position: 10px center;
+  right: 0;
 }
-.content .submission.row div.image-container .image-control.image-before {
+.submission.row div.image-container .image-control.image-before {
   background-image: url("src/assets/arrow-left.png");
   background-repeat: no-repeat;
-  background-position: 3px center;
-  left: 10px;
+  background-position: 10px center;
+  left: 0;
 }
-.content .submission.row div.image-container div.image {
+.submission.row div.image-container div.image {
   margin-top: 10px;
   overflow: hidden;
   margin: 5px auto;
   position: relative;
 }
-.content .submission.row div.image-container div.image .swiper-slide {
+.submission.row div.image-container div.image .swiper-slide {
   text-align: center;
   display: table-cell;
+  padding: 2em 3em;
 }
-.content .submission.row div.image-container div.image .swiper-slide img {
+.submission.row div.image-container div.image .swiper-slide img {
   max-width: 100%;
+}
+.submission.row .controls .see-live {
+  background: #f1347d;
+  color: #fff;
+  padding: 0.3em 0.5em;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.submission.row .controls .see-live:hover {
+  background: #cf2f6d;
 }
 
 div.submitted_by a,
 div.creator a {
   cursor: pointer;
 }
+.tags-title,
+.extra {
+  margin-top: 2em;
+}
 div.tags {
   font-size: 0.8em;
   margin-top: 1em;
 }
-div.tags span.tag:hover {
-  background-color: #ffa500;
-}
 span.tag {
   padding: 0.3em 0.6em;
   margin-bottom: 0.5em;
-  background-color: #b4b4b4;
+  background: #b4b4b4;
   color: #fff;
   -webkit-border-radius: 3px;
   border-radius: 3px;
   cursor: pointer;
   display: inline-block;
 }
-span.tag.tag:hover {
-  background-color: #969393;
+span.tag:hover {
+  background: #949494;
+}
+.comments legend {
+  font-size: 24px;
+  border: none;
+  margin-bottom: 0.3em;
+  color: #6d6c6c;
+}
+.comments .btn.btn-primary {
+  background: #f1347d;
+  padding: 0.3em 0.8em;
+  border: none;
+}
+.comments textarea {
+  border-color: #ccc;
 }
 
 header {
@@ -7180,12 +7210,11 @@ header {
 }
 header a.logo {
   margin-top: 0px;
-  background-image: url("/src/assets/mobilevis-logo.png");
-  background-repeat: no-repeat;
-  width: 213px;
-  height: 63px;
   float: left;
   position: relative;
+}
+header a.logo img {
+  max-width: 100%;
 }
 header ul.menu {
   list-style-type: none;
@@ -7199,15 +7228,42 @@ header ul.menu li {
   margin-left: 1em;
 }
 header ul.menu li a {
+  position: relative;
   text-decoration: none;
   color: #fff;
   background: #80508c;
-  padding: 0.8em;
+  padding: 0.7em;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
 header ul.menu li a:hover {
   background: #6b4375;
+}
+header ul.menu li a img {
+  margin: 0 2px 2px 0;
+}
+header ul.menu li .twitter-login {
+  background: #4eadf0;
+}
+header ul.menu li .twitter-login:hover {
+  background: #469bd6;
+}
+header ul.menu li .twitter-login img {
+  margin: 0 6px 5px 0;
+}
+/* Dropdown menu */
+nav label {
+  display: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+nav input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+nav.f-nav {
+  background-color: #000;
 }
 
 @media only screen and (max-width: 1140px) {
@@ -7219,28 +7275,65 @@ header ul.menu li a:hover {
   body .container .block {
     max-width: 570px;
   }
+  header {
+    padding: 0;
+  }
+  header a.logo {
+    margin: 0.7em;
+    width: 150px;
+  }
+  .container header .block {
+    max-width: 100%;
+  }
+  header ul.menu {
+    display: none;
+    width: 100%;
+    line-height: 3.5em;
+    padding: 0;
+    margin: 0;
+  }
+  header ul.menu li {
+    float: none;
+    text-align: left;
+    border-top: 1px solid #62406b;
+    width: 100%;
+    margin-left: 0;
+  }
+  header ul.menu li a {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 0 0.7em;
+    text-align: center;
+  }
+  nav a {
+    display: block;
+    padding: 16px 1.5em;
+    width: 100%;
+  }
+  nav label {
+    display: block;
+    min-height: 3.5em;
+  }
+  nav label:after {
+    background-image: url("../src/assets/menu-more.png");
+    content: '';
+    position: absolute;
+    right: 0.85em;
+    top: 0.85em;
+    font-size: 1.8em;
+    width: 23px;
+    height: 19px;
+  }
+  nav input[type=checkbox]:checked ~ ul {
+    display: block;
+  }
+  nav .active a,
+  nav a:hover {
+    color: #000;
+  }
 }
 @media only screen and (max-width: 570px) {
   body .container section .block {
     max-width: 280px;
-  }
-  header {
-    padding: 1em 0 0 0;
-    text-align: center;
-  }
-  header .block {
-    max-width: 100%;
-  }
-  header a.logo {
-    display: block;
-    margin: auto;
-    float: none;
-  }
-  header ul.menu {
-    float: none;
-    display: inline-block;
-  }
-  header ul.menu li {
-    margin: 0 0.3em;
   }
 }
