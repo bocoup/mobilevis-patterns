@@ -1,0 +1,50 @@
+---
+title: Use Touch Zones
+description: When displaying a lot of data points that are hoverable/touchable, consider using defined touch zones instead.
+submitted_by: "ireneros"
+timestamp: 2014-06-09 16:09:06 -0400
+---
+
+<div class="col-md-8">
+  <h1>Use Touch Zones</h1>
+  <p>
+    When we use certain visualization types, such as scatterplots, we may end up
+    with a lot of data points on a small screen. If we provide hover behavior for
+    those points on the web, it may be tempting to do so on mobile as well. However, If the
+    density of these points is too high, due to the touch area being so large on mobile
+    (relative to a mouse cursor,) we may need to alter the way our users interact with
+    those points.
+  </p>
+  <p>
+    There are several ways in which this can be accomplished:
+    <ul>
+      <li>
+        <p>
+          If your data demonstrates some clustering behaviour, consider defining touch
+          zones that surround the clusters.
+        </p>
+
+        <p>
+          <object data="/src/assets/scatterplot_clusters.svg" type="image/svg+xml">
+            <img src="/src/assets/scatterplot_clusters.png" />
+          </object>
+        </p>
+      </li>
+      <li>
+        <p>
+          If there interesting element about your scatterplot has to do with an increase
+          in the x or y values, consider dividing up the screen into appropriatly-sized touch zones
+          and responding to those, instead of the values themselves.
+        </p>
+        <p>
+          <object data="/src/assets/scatterplot_regions.svg" type="image/svg+xml">
+            <img src="/src/assets/scatterplot_regions.png" />
+          </object>
+          <object data="/src/assets/scatterplot_regions2.svg" type="image/svg+xml">
+            <img src="/src/assets/scatterplot_regions2.png" />
+          </object>
+        </p>
+      </li>
+    </ul>
+  </p>
+</div>
