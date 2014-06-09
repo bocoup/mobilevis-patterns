@@ -3,7 +3,8 @@
 This repository contains the code that generates http://patterns.mobilev.is.
 It is a collection of best practices for creating data visualization on mobile
 devices. The findings are based on observations made from the examples submitted
-to http://mobilev.is. Please submit examples there!
+to http://mobilev.is. Please submit examples there if that is your intention, otherwise
+proceed to see how you can add best practices or help us with the website itself:
 
 
 ## Adding best practices
@@ -41,7 +42,7 @@ When you're ready to build your changes, run:
 
 When sending in a pull request, don't check in `build/*` files.
 
-### Adding best practices:
+### Adding patterns:
 
 When you want to add a new pattern, simply look in the `source/patterns` directory
 for some examples.
@@ -65,7 +66,11 @@ The file name should start with an `_`, like `_verticalBarChart.erb`.
 It should be an `erb` file.
 It shouldn't use `_` as a separator in the file name.
 
-Any assets/images you're adding should go in the `source/src/assets` folder.
+Any assets/images you're adding should go in the `source/src/assets` folder. Note that
+most of the images are SVGs! Try to follow this example. For backup, we also create
+PNGs that we default to if SVG is not supported.
+
+If you have any questions, ping [@ireneros](http://twitter.com) or find iros on freenode.
 
 
 
