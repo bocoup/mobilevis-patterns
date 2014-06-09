@@ -1,0 +1,36 @@
+---
+title: Carousel Instead of Tabs
+description: When allowing users to switch between different displays, instead of using tabs (which require a lot of horizontal space,) consider using a carousel with next and previous buttons.
+submitted_by: "ireneros"
+timestamp: 2014-06-04 15:18:16 -0400
+---
+
+<div class="col-md-8">
+  <h1>Carousel Instead of Tabs</h1>
+  <p>
+   When creating multi-display visualizations, we need to provide a navigational element
+   to our users so that they can switch between those displays. A common example of such
+   an element on the web is a tabbed interface. Tabs allow us to name our various displays,
+   giving the user an idea of what they should expect when clicking on a tab.
+   Unfortunetly, due to limited horizontal space on mobile devices (especially in portrait mode,)
+   we need to create an interface that switches between displays regardless of how many of
+   them exist. One way to do so, is by introducing next/prev buttons.
+  </p>
+  <p>
+    For example, instead of tabs: <br>
+  </p><p>
+    <object data="/src/assets/multi_display_tabs.svg" type="image/svg+xml">
+      <img src="/src/assets/multi_display_tabs.png" />
+    </object>
+  </p>
+
+  <p>
+    Try to use a carousel. This gives you more horizontal space to indicate what
+    is currently being displayed. Grey out the previous or next buttons if there
+    are no additional displays prior or next to the current one.
+  </p><p>
+    <object data="/src/assets/multi_display_carousel.svg" type="image/svg+xml">
+      <img src="/src/assets/multi_display_carousel.png" />
+    </object>
+  </p>
+</div>
