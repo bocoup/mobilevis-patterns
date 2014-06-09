@@ -6,5 +6,8 @@
     <a href="http://twitter.com/<%= @submitted_by %>">@<%= @submitted_by %></a>, on <%= @timestamp.strftime("%m-%d-%Y") %>
   </span>
   <p class="description"><%= @description %></p>
-
+  <div class="link">
+    <a href="<%= @path %>">Read More &raquo;</a>
+    <br/>
+  </div>
 </li>
