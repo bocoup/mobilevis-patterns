@@ -22,11 +22,33 @@ module.exports = function(grunt) {
       }
     },
     deploy: {
-      upload: [{
-        src: "build/**/*",
-        dest: "/",
-        rel: "build"
-      }]
+      upload: [
+        {
+          src: "build/css/*",
+          dest: "/",
+          rel: "build"
+        },
+        {
+          src: "build/js/*",
+          dest: "/",
+          rel: "build"
+        },
+        {
+          src: "build/pattern/*",
+          dest: "/",
+          rel: "build"
+        },
+        {
+          src: "build/src/assets/*",
+          dest: "/",
+          rel: "build"
+        },
+        {
+          src: "build/*.{html,txt,png,xml,ico}",
+          dest: "/",
+          rel: "build"
+        }
+      ]
     }
   });
 
