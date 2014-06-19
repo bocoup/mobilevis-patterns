@@ -24,3 +24,7 @@ ul {
   clear: both;
   width: 100%;
 }
+
+.papers li {
+  margin-top: 20px;
+}

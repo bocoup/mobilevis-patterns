@@ -7068,6 +7068,9 @@ ul.submissions li.submission .submission-content .image div {
   transition: ease 750ms background-position;
   width: 100%;
   border-bottom: 1px solid #f8f8f8;
+  -webkit-box-shadow: inset 0px 0px 16px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 0px 16px rgba(0,0,0,0.3);
+  border: 5px solid #fff;
 }
 ul.submissions li.submission .submission-content .image div:hover {
   background-color: #eee;

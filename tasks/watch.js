@@ -32,6 +32,11 @@ module.exports = function(grunt) {
     rebuild: {
       files: ["source/patterns/*.erb", "source/css/patterns.css", "source/layouts/*.erb"],
       tasks: ["middleman:build"]
+    },
+
+    pages: {
+      files: ["source/*.html.erb"],
+      tasks: ["middleman:build"]
     }
   });
 
